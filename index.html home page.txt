@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Blog</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="featured-posts">
+        <div class="container">
+            <h2>Featured Posts</h2>
+            <div class="post">
+                <h3><a href="post1.html">How to Start a Blog</a></h3>
+                <p>Learn how to create a blog from scratch in a few easy steps...</p>
+            </div>
+            <div class="post">
+                <h3><a href="post2.html">10 Tips for Writing Engaging Content</a></h3>
+                <p>Discover the secrets to writing content that keeps your audience coming back...</p>
+            </div>
+            <!-- More featured posts here -->
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 My Blog. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
